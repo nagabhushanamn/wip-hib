@@ -1,0 +1,60 @@
+
+Hibernate - Topics
+-----------------------------------------------------------------
+
+1. Hibernate intro
+2. Hibernate Adv Mapping ( primitives , String , enum , bye[] 
+3. Hibernate - entity + non-entity object mapping
+4. Hibernate - entity + colln-non-entity objs mapping
+5. HIBERNATE - primary key mapping
+6. Hibernate - One Enity with Many tables.
+
+7. Hibernate - Entity + Inheritance mapping
+
+-------------------------------------------------------------
+
+8. Entity + Enity mapping  ( Entity r/s )
+
+ 2 types of entity r/s
+ 
+  --> uni directional
+  --> bi directional
+  
+  with 4 assoications
+  
+   1 - 1
+   1 - Many
+   Many - 1
+   Many - Many
+   
+  in relationa model , we do entiy r/s in 2 ways
+  
+  --> Join cloumn / FK
+  --> join Table
+  
+  
+  --------------------------------
+  
+  Enity Life-cycle
+  
+  ---------------------------------
+  
+  http://github.com/nagabhushanamn/wip-hibernate
+  
+   
+   
+   
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+

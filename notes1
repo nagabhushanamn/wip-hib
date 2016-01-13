@@ -1,0 +1,135 @@
+
+
+s/w application
+
+  a. applicaion  --> process
+  b. datastore   --> persist
+  
+      file-system
+      rdbmms
+      NoSQl
+      cloud
+      
+    -----------
+    
+    Application   <----> RDBMS
+    
+    
+    Application --> Object Model
+    RDBMS       --> Relational Model
+    
+    ORM ( Object Relational Mapping )
+    
+    How to do using java lang ?
+    
+      legacy style
+      
+      using 'JDBC API'
+      
+      basic steps to use JDBC API ?
+      
+      1. install 'JDBC Driver' with JDBC API.
+      2. create DB clonnection with URL,username ,password
+      
+      3. create JDBC statements with SQL
+      4. execute and process results
+      
+      5. Handle SQLException
+      6. Manage Txns.
+      
+      7. release DB connections.
+      
+      -------------------------------
+      
+      Limitation/code-complexity with JDBC API
+      
+      --> connection management manual
+      --> too much duplicate code
+      --> too many queries even for simple data-access oprn.
+      --> DataType conversion
+      --> Association b/w entities need to manage manully.
+      --> code partially depend on RDBMS.
+      --> No txn support
+      --> No exception handling support
+      --> No cahce for frequent data
+      
+      --> etc......
+      
+      JDBC API is too low-level API dor data accessing
+      
+      ------------------------------------------------
+      
+      Solns:
+      
+      
+        ORM F.Ws
+        
+        a. Hibernate  : Jboss community
+        b. Toplink    : oracle
+        c. Eclipselink : Eclipse community
+        d. iBatis      : Apache
+        e. JDO
+        
+        ---------------------------
+        
+        java comunity
+        
+        EJB 2.x
+         
+            Entity Beans
+        
+        --------
+        
+        JPA ( Java Persistence API )
+        --------
+        
+        EJB 3.x
+        
+        ------------------------
+        
+        
+        what is Hibernate ?
+        
+        --> ORM framework
+        --> it is used in 'Data/DAO/Repository layer
+            of your appln.
+        --> JPA implementor
+        
+        --------------
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      

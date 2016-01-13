@@ -1,0 +1,1 @@
+select * from mysql.new_products;
